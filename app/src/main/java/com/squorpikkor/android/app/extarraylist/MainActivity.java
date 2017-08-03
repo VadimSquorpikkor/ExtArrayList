@@ -7,9 +7,9 @@ import com.squorpikkor.android.app.extarraylist.ExtArrayList.ExtArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    ExtArrayList<String> extArrayList = new ExtArrayList<>();
+    ExtArrayList<String> extArrayList = new ExtArrayList<>(this);
 
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
